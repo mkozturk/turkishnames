@@ -104,3 +104,7 @@ SUAT | 41030 | 2604 | 43634
 SERVET | 30728 | 10998 | 41726
 SERIF | 35247 | 5892 | 41139
 NUR | 3286 | 35213 | 38499
+
+The names above are sorted according to their overall count. However, many of them are biased toward being male names. Alternatively, one can sort them according to some "equality score", which I define as 1 - |males - females|/total. So if a name is carried by an equal number of people in each gender its score is 1. If there is a strong bias for one gender, its score is close to 0.
+
+Here are the first 20 unisex names sorted according to the equality score. We 
