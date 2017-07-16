@@ -161,13 +161,13 @@ There is a total of 189,094 unique last names, including misspellings and incons
 
 number of people | number of distinct last names
 ----------- | -----------
->= 1 | 189,094
->= 10 | 114,918
->= 100 | 28,606
->= 1,000 | 4,941
->= 10,000 | 721
->= 100,000 | 48
->= 1,000,000 | 0
+\>= 1 | 189,094
+\>= 10 | 114,918
+\>= 100 | 28,606
+\>= 1,000 | 4,941
+\>= 10,000 | 721
+\>= 100,000 | 48
+\>= 1,000,000 | 0
 
 An interesting observation is that there are more last names than first names, even accounting for misspellings. For example, there are about 115,000 unique last names, carried by 10 or more people, compared to 26,000 such first names.
 
@@ -175,7 +175,7 @@ An interesting observation is that there are more last names than first names, e
 As an interesting aside, I counted people who had the same first and last names. Turns out there are several thousand such people, and more than 1500 such combinations. Here is the top 22:
 
 First name | Last name | Count
------|-----|-----|----
+-----|-----|-----
 YILMAZ | YILMAZ | 499
 YILDIZ | YILDIZ | 479
 AYDIN | AYDIN | 303
