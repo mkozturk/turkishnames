@@ -66,13 +66,13 @@ One can also wonder about the _least_ common names. However, the distribution of
 
 number of people carrying the name | number of distinct names
 ----------- | -----------
-> = 1 | 164,820
-> = 10 | 25,940
-> = 100 | 7616
-> = 1,000 | 2319
-> = 10,000 | 805
-> = 100,000 | 70
-> = 1,000,000 | 3
+\>= 1 | 164,820
+\>= 10 | 25,940
+\>= 100 | 7616
+\>= 1,000 | 2319
+\>= 10,000 | 805
+\>= 100,000 | 70
+\>= 1,000,000 | 3
 
 There are more than a hundred thousand people with a unique first name, so the question of the least common name does not apply.
 
