@@ -2,14 +2,14 @@
 
 I have tallied and analyzed names and birthdates of about 50 million Turkish citizens. I present the results and aggregated data in this repository. The raw data is not made available in order to prevent possible violations of privacy.
 
-##Overview
+## Overview
 The data contains records of 49,611,709 individuals, 24,534,483 men and 25,077,226 women, born between 1888 and 1991.
 
 All strings are in capital letters and non-ASCII Turkish characters are converted to ASCII (Ü->U, Ö->O, İ->I, Ş->S, Ğ->G, Ç->C).
 
 The raw data is given in text form. I have used simple Python scripts to extract relevant data and to tally counts. I have also used command-line tools such as awk, grep, wc for quick filtering and counting.
 
-##Most common male and female first names
+## Most common male and female first names
 In parsing the names, I have counted first and middle names separately. For example, a man named Mehmet Ali is counted under MEHMET as well as ALI.
 
 The 20 most common male names
