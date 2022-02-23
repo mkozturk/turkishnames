@@ -1,18 +1,18 @@
 # turkishnames
 
-I have tallied and analyzed first and last names of about 50 million Turkish citizens. I present the results and aggregated data in this repository. The raw data is not made available in order to prevent possible violations of privacy.
+I have tallied and analyzed the first and last names of about 50 million Turkish citizens. Here I present the results of aggregated data. For privacy concerns, the complete data is not made available.
 
 ## Overview
 The data contains records of 49,611,709 individuals, 24,534,483 men and 25,077,226 women, born between 1888 and 1991.
 
 All strings are in capital letters. Non-ASCII Turkish characters are converted to ASCII (Ü->U, Ö->O, İ->I, Ş->S, Ğ->G, Ç->C).
 
-The raw data is given in text form. I have used simple Python scripts to extract relevant data and to tally counts. I have also used command-line tools such as awk, grep, wc for quick filtering and counting.
+The raw data was given in plain text form. I have used simple Python scripts to extract relevant data and to tally counts. I have also used command-line tools such as awk, grep, wc for quick filtering and counting.
 
-We show only the top 20 entries in the lists. See the file _turkishnames.zip_ in this repository for complete lists. The lists are given in descending order by count, so you can check the ranking of a name by looking at its position in the file.
+This page shows only the top 20 entries in the lists. For complete lists, see the file _turkishnames.zip_ in this repository. The lists are given in descending order by count, so you can see the rank of a name by looking at its position in the file.
 
 ## Most common male and female first names
-In parsing the names, I have counted first and middle names separately. For example, a man named Mehmet Ali is counted under MEHMET as well as ALI.
+In parsing the names, I have counted the first and middle names separately. For example, a man named Mehmet Ali is counted under MEHMET as well as ALI.
 
 The 20 most common male names (see file *male_name_tally* for a complete list).
 
@@ -64,7 +64,9 @@ YASEMIN | 148887
 HACER | 147168
 HAVVA | 145851
 
-One can also wonder about the _least_ common names. However, the distribution of names is long-tailed, meaning there are thousands of names, each carried by only a few people. The database contains 164,820 distinct first names; however, many of them are misspellings or variants of more common names. There are only 25,940 first names that are carried by 10 or more people.
+One can also wonder about the _least_ common names. However, the distribution of names is long-tailed, meaning there are thousands of names very rare names, each carried by only a few people. Furthermore, many names are misspellings or variants of more common names. 
+
+The database contains 164,820 distinct first names. However, only 25,940 of them are carried by 10 or more people.
 
 number of people carrying the name | number of distinct names
 ----------- | -----------
@@ -82,7 +84,9 @@ Female first names have more variation than male first names. Of all first names
 
 # Unisex first names
 
-There are many Turkish names that are used by either gender, such as Deniz, Kamuran, Tuna, etc. However, when I tried to tally the names that occur both in male and female list, I was surprised to see that exclusively male and female names also appeared on the list. For example, there are 69 Mehmets listed as female (out of 1.7 million) and 48 Fatmas listed as male (out of 1.2 million). These are obviously clerical mistakes. In order to eliminate them, I discounted the names where one gender's count is less than 1/20th of the other. Here are the most common 20 unisex names (see the file *unisex_name_tally_filtered* for a complete list).
+There are many Turkish names that are used by either gender, such as Deniz, Kamuran, Tuna, etc. However, when I tried to tally the names that occur both in male and female list, I was surprised to see that exclusively male and female names also appeared on the list. For example, there are 69 Mehmets listed as female (out of 1.7 million) and 48 Fatmas listed as male (out of 1.2 million). These are obviously clerical mistakes. In order to eliminate them, I discounted the names where one gender's count is less than 1/20th of the other. 
+
+Here are the most common 20 unisex names (see the file *unisex_name_tally_filtered* for a complete list).
 
 Name | Males | Females | Total count
 ---|---| --- | ---
@@ -107,7 +111,7 @@ SERVET | 30728 | 10998 | 41726
 SERIF | 35247 | 5892 | 41139
 NUR | 3286 | 35213 | 38499
 
-The names above are sorted according to their overall count. However, many of them are biased toward being male names. Alternatively, one can sort the names according to some "equality score", which I define as 1 - |males - females|/total. So if a name is carried by an equal number of people in each gender its score is 1. If there is a strong bias for one gender, its score is close to 0.
+The names above are sorted according to their overall count. However, many of them are biased toward being male names (more men than women with this name). Alternatively, one can sort the names according to some "equality score", which I define as 1 - |males - females|/total. So if a name is carried by an equal number of people in each gender its score is 1. If there is a strong bias for one gender, its score is close to 0.
 
 Here are the first 20 unisex names sorted according to the equality score. We count only names that are carried by more than 10,000 people. (See the file *unisex_names_equality_score* for a complete list.)
 
@@ -201,4 +205,4 @@ BEKTAS | BEKTAS | 59
 OZKAN | OZKAN | 59
 DURAN | DURAN | 58
 
-This time I went up to 22, because as a kid of 80s I just had to show the "Duran Duran" on the list.
+This time I went up to 22, because as a kid of 80s I just had to include "Duran Duran" on the list.
