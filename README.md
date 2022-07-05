@@ -163,7 +163,7 @@ KURT | 161857
 OZKAN | 157206
 ACAR | 149566
 
-There is a total of 189,094 unique last names, including misspellings and inconsistently entered double last names (e.g., using hyphens or parentheses). Here is a breakdown of unique last names and number of people having it.
+There are 189,094 distinct last names, including misspellings and inconsistently entered double last names (e.g., using hyphens or parentheses). Here is a distribution of the number of last names:
 
 number of people | number of distinct last names
 ----------- | -----------
