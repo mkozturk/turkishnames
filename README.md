@@ -1,6 +1,6 @@
 # turkishnames
 
-I have tallied and analyzed the first and last names of about 50 million Turkish citizens. Here I present the results of aggregated data. For privacy concerns, the complete data is not made available.
+I have tallied and analyzed the first and last names of about 50 million Turkish citizens. Here I present the results of aggregated data. To protect their privacy, the complete data is not made available.
 
 ## Overview
 The data contains records of 49,611,709 individuals, 24,534,483 men and 25,077,226 women, born between 1888 and 1991.
